@@ -1,4 +1,4 @@
-# Sloc_ounter
+# Sloc_counter
 To count total number of line in source code:
 
 
