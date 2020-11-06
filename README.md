@@ -1,6 +1,7 @@
 # Sloc_ounter
 To count total number of line in source code:
 
+
 Process:
 (1). Put Sloc_counter.py/Sloc_counter.exe in same folder.
 (2). Pass Command line argument: Sloc_counter.py/Sloc_counter.exe Filename
