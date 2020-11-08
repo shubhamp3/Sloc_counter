@@ -54,7 +54,7 @@ def remove_hash():
     file1= open("testfile.html","w+")
     count=0
     for line in fh:
-            if 'COLOR="#FF311D' in line and 'loop' not in line:
+            if 'COLOR="#FF311D' in line and 'implicit else' not in line and 'Stub' not in line and '=F' not in line and '=T' not in line and 'needs' not in line and 'False' not in line and 'True' not in line and 'loop' not in line:
                 file1.writelines(line)
                 count=count+1
                 print(count)
