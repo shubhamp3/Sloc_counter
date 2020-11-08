@@ -19,7 +19,7 @@ Remarks:
 nocomments version of .c file will include Sloc with preprocessers.
 nocomments version of .html file will make task easy to count uncovered part of Sloc.
 testfile.c contain only Sloc(comments and preprocessers are deleted).
-testfile.html contains only red line of code.
+testfile.html contains only red line of code(once verify manually).
 
 Known Limitation:
 This will work properly in cases where preprocessor check finishes in single line.
