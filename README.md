@@ -3,7 +3,7 @@ To count total number of line in source code:
 
 Caution:
 Make a seperate folder for count purpose only, because code is written in such a way 
-that it will overwrite original .c file with nocomments version of same code.
+that it will overwrite original .c and .html file with nocomments version of same code.
 
 Process(Sloc_counter.py):
 (1). Put Sloc_counter.py in same folder.
@@ -19,7 +19,8 @@ Remarks:
 nocomments version of .c file will include Sloc with preprocessers.
 nocomments version of .html file will make task easy to count uncovered part of Sloc.
 testfile.c contain only Sloc(comments and preprocessers are deleted).
-testfile.html contains only red line of code(uncovered) verify loop manually.
+testfile.html contains only red line of code.
+
 Known Limitation:
 This will work properly in cases where preprocessor check finishes in single line.
 If preprocessor check is written within multiple line abrupt behaviour can be seen.
