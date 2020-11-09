@@ -26,3 +26,4 @@ This will work properly in cases where preprocessor check finishes in single lin
 If preprocessor check is written within multiple line abrupt behaviour can be seen.
 so we have to manually count multiline preprocessor check and substract it from total.
 e.g: if sloc= 10, lines in processor check=3 then net sloc will be= (10-2)=8
+Count and remove variable declaration also.
